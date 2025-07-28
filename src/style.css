@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+.btn,
+.btn-secondary {
+  @apply p-5
+  hover:text-white
+  hover:scale-105
+  transition-transform
+  rounded-lg
+  mx-2
+  text-xs;
+}
+.btn {
+  @apply bg-green-500 hover:bg-green-700;
+}
+.btn-secondary {
+  @apply bg-blue-500 hover:bg-blue-700;
+}
+
+.h1 {
+  @apply text-3xl font-bold my-5 underline;
+}
