@@ -12,9 +12,9 @@
 <script lang="ts" setup>
 import { useContador } from '@/composables/useContador';
 const { contador, cuadradoContador } = useContador();
-interface Props {
-  value: number;
-  text: string;
-}
-const props = defineProps<Props>();
+// interface Props {
+//   value: number;
+//   text: string;
+// }
+// const props = defineProps<Props>();
 </script>
