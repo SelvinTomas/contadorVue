@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import ChatBubble from './ChatBubble.vue';
-import { ChatMessage } from '@/interfaces/chat-message.interface';
+import type { ChatMessage } from '@/interfaces/chat-message.interface';
 import { ref, watch, nextTick } from 'vue';
 
 interface Props {
